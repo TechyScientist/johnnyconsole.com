@@ -1,2 +1,2 @@
 # johnnyconsole.com
-Source Code repository for my personal website, johnnyconsole.com
+Source code for my website
