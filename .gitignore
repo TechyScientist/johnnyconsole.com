@@ -9,3 +9,6 @@ assets/script/vendor
 
 # Allow the shared Run Configurations
 !.idea/runConfigurations/
+
+# Ignore SSL validation folders
+.well-known/
