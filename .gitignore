@@ -1,0 +1,11 @@
+# Ignore composer vendor directories
+assets/script/vendor
+
+# Ignore environment variables
+.env
+
+# Ignore all JetBrains/PhpStorm settings...
+.idea/*
+
+# Allow the shared Run Configurations
+!.idea/runConfigurations/
