@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^7.0",
+        "google/cloud-recaptcha-enterprise": "^2.2",
+        "vlucas/phpdotenv": "^5.7"
+    }
+}

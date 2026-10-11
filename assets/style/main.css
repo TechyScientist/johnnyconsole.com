@@ -1,0 +1,170 @@
+@font-face {
+    font-face-name: "TT Norms";
+    src: url(font/TTNorms-Regular.otf);
+}
+
+:root {
+    --background-color: #F8F8FF;
+    --blue: #062762;
+    --success: #52B2A6;
+    --warning: #E6B848;
+    --error: #C14D37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "TT Norms", sans-serif;
+    color: var(--blue);
+    letter-spacing: 0.03125em;
+}
+
+body {
+    width: 100%;
+    background: var(--background-color);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+header {
+    display: grid;
+    grid-template-areas: "head1 nav"
+                         "head2 nav";
+    background: var(--blue);
+    padding: 2em;
+
+    h1 {
+        color: var(--background-color);
+        font-size: 1.5em;
+        grid-area: head1;
+        margin-bottom: -0.5em;
+    }
+
+    h2 {
+        color: var(--background-color);
+        font-size: 1em;
+        margin-left: 2em;
+        grid-area: head2;
+    }
+
+    nav {
+        grid-area: nav;
+        justify-self: end;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(8, auto);
+        gap: 1.25em;
+        width: fit-content;
+        padding: 1.25em;
+
+        a {
+            width: auto;
+            transition-duration: 0.2s;
+            transition-property: all;
+            color: var(--background-color);
+            text-decoration: none;
+            padding: 0.5em;
+            border: 0.063em solid var(--background-color);
+            border-radius: 4em;
+        }
+
+        a:hover, #current {
+            transition-duration: 0.2s;
+            transition-property: all;
+            background: var(--background-color);
+            color: var(--blue);
+            border-color: var(--blue);
+        }
+    }
+
+}
+
+main {
+    padding: 2em 4em;
+}
+
+p {
+   margin-bottom: 0.625em;
+}
+
+p#success {
+    text-align: center;
+    background-color: var(--success);
+    color: black;
+    padding: 0.625em;
+    min-height: 2.1875em;
+    line-height: 2.1875em;
+    border-radius: 0.5em;
+}
+
+p#error {
+    text-align: center;
+    background-color: var(--error);
+    color: var(--background-color);
+    padding: 0.625em;
+    min-height: 2.1875em;
+    line-height: 2.1875em;
+    border-radius: 0.5em;
+}
+
+p#error strong {
+    color: var(--background-color);
+}
+
+p#warning {
+    text-align: center;
+    background-color: var(--warning);
+    color: black;
+    padding: 0.625em;
+    min-height: 2.1875em;
+    line-height: 2.187em;
+    border-radius: 0.5em;
+}
+
+
+footer {
+    background-color: var(--blue);
+    color: var(--background-color);
+    padding: 2.5em;
+}
+
+@media (max-width: 1150px) {
+    header {
+        grid-template-areas:
+            "head1"
+            "head2"
+            "nav";
+        grid-template-columns: 1fr;
+        padding: 1.5em;
+
+        h1 {
+            margin-bottom: unset;
+        }
+
+        h2 {
+            margin-left: 0;
+            margin-bottom: 1.25em;
+        }
+
+        nav {
+            justify-self: center;
+            width: 100%;
+            grid-template-columns: repeat(3, auto);
+            gap: 0.75em;
+            padding: 0;
+
+            a {
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    main {
+        padding: 2em 0;
+    }
+}
