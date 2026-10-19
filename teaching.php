@@ -88,7 +88,7 @@
 	</tr>
 </table><br/>
 <h3>Teaching Assistantships</h3>
-<p>Upper-year (i.e., third- and fourth year) students are invited to complete this <a href="https://app.smartsheet.com/b/form/60690b2107d74a63bfa8fd92636cbf66">Teaching Assistant Application Form</a> to apply for any open teaching assistant positions for my courses. Positions are added to the list as I am assigned to them and are removed from the list as TAs are chosen. Please do not submit a general TA application - these will be discarded. Only successful applicants will be contacted to complete the hiring process. Emailed submissions are currently <strong>not</strong> accepted: <em>all applications must be done using the linked form</em>.</p>
+<p>Upper-year (i.e., third- and fourth year) students are invited to complete this <a href="https://forms.gle/9khQoxA9Vn9EaD5F7">Teaching Assistant Application Form</a> <strong>while signed in to your Algoma University Gmail account</strong> to apply for any open teaching assistant positions for my courses. Positions are added to the list as I am assigned to them and are removed from the list as TAs are chosen. Please do not submit a general TA application - these will be discarded. Only successful applicants will be contacted to complete the hiring process. Emailed submissions are currently <strong>not</strong> accepted: <em>all applications must be done using the linked form</em>.</p>
 
 
 <h4 style="margin-left: 10px;">Notable Current and Past Teaching Assistants</h4>
@@ -150,7 +150,7 @@
 
 
 <h3>Supervision of Project and Thesis Work</h3>
-<p>Are you a third year computer science student at Algoma University looking to complete a project or thesis in your fourth year? To request supervision for your project or thesis, please fill out my <a href="https://app.smartsheet.com/b/form/40e4cdfd3c3c4a0b97da6c991c6d44dd">Project/Thesis Supervision Request Form</a>. My areas of expertise include the following:
+<p>Are you a third year computer science student at Algoma University looking to complete a project or thesis in your fourth year? To request supervision for your project or thesis, please fill out my <a href="https://forms.gle/R2Wcyz2MLjCcQYnRA">Project/Thesis Supervision Request Form</a> <strong>while signed in to your Algoma University Gmail account</strong>. My areas of expertise include the following:
 <ul style="margin-left: 35px;">
 	<li>Desktop application development (Java, Python, C/C++)</li>
 	<li>Android application development (Kotlin and Java)</li>
