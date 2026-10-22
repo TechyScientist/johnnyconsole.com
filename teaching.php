@@ -8,12 +8,22 @@
         display: block;
         width: 100%;
         height: 3em;
-        color: var(--background-color);
-        background-color: var(--blue);
+        color: var(--blue);
+        background-color: var(--background-color);
+        border: 1px solid var(--blue);
         margin-bottom: 0.625em;
         padding: 0.5em;
         border-radius: 0.5em;
     }
+
+    button:hover, button.selected {
+        transition: all;
+        transition-duration: 0.5s;
+        color: var(--background-color);
+        background-color: var(--blue);
+    }
+
+
 	table {
 		border-spacing: 0;
 		border-collapse: collapse;
@@ -27,7 +37,7 @@
         border: 1px solid var(--blue);
 	}
 
-    th.no-border, td.no-border {
+    td.no-border {
         border: none;
     }
 </style>
@@ -36,10 +46,6 @@
 <p>I have upwards of six years of experience teaching students in Algoma University's Faculty of Computer Science & technology in a variety of courses as both a teaching assistant and as an instructor. I have experience teaching the following courses:</p>
 
 <table>
-	<tr>
-		<th class="no-border">Select a Course</th>
-        <th class="no-border"></th>
-	</tr>
 	<tr>
 		<td class="no-border" style="display: grid; grid-template-columns: auto auto; grid-column-gap: 0.625em;">
             <button class="classBtn selected">PHYS 1006</button>
@@ -57,7 +63,8 @@
         </td>
         <td class="no-border" id="infoCol" style="vertical-align: top;"></td>
 	</tr>
-</table><br/>
+</table>
+
 <h3>Teaching Assistantships</h3>
 <p>Upper-year (i.e., third- and fourth year) students are invited to complete this <a href="https://forms.gle/9khQoxA9Vn9EaD5F7">Teaching Assistant Application Form</a> <strong>while signed in to your Algoma University Gmail account</strong> to apply for any open teaching assistant positions for my courses. Positions are added to the list as I am assigned to them and are removed from the list as TAs are chosen. Please do not submit a general TA application - these will be discarded. Only successful applicants will be contacted to complete the hiring process. Emailed submissions are currently <strong>not</strong> accepted: <em>all applications must be done using the linked form</em>.</p>
 
