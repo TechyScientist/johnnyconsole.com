@@ -10,7 +10,7 @@
         height: 3em;
         color: var(--background-color);
         background-color: var(--blue);
-        margin: 0.625em 0;
+        margin-bottom: 0.625em;
         padding: 0.5em;
         border-radius: 0.5em;
     }
@@ -20,12 +20,16 @@
 	}
 
 	th, td {
-		max-width: 800px;
+		max-width: 600px;
 		text-align: left;
 		align-items: center;
 		padding: 10px;
-		border: 1px solid var(--blue);
+        border: 1px solid var(--blue);
 	}
+
+    th.no-border, td.no-border {
+        border: none;
+    }
 </style>
 
 <h3>Teaching</h3>
@@ -33,14 +37,11 @@
 
 <table>
 	<tr>
-		<th>Course Code</th>
-        <th>Course Name</th>
-		<th>Academic Calendar Description</th>
-		<th>Teaching Capacity</th>
+		<th class="no-border">Select a Course</th>
+        <th class="no-border"></th>
 	</tr>
 	<tr>
-
-		<td>
+		<td class="no-border" style="display: grid; grid-template-columns: auto auto; grid-column-gap: 0.625em;">
             <button class="classBtn selected">PHYS 1006</button>
             <button class="classBtn">PHYS 1007</button>
             <button class="classBtn">COSC 1047</button>
@@ -54,9 +55,7 @@
             <button class="classBtn">COSC 4235</button>
             <button class="classBtn">COSC 4596</button>
         </td>
-        <td id="nameCol">Introductory Physics I</td>
-		<td id="descCol">This course is the first of two courses that provide the student with a thorough understanding of the basic concepts of physics. Topics covered include kinematics, dynamics, work, energy and momentum, equilibrium and fluids, waves and sound, temperature, heat, and thermodynamics. The theoretical concepts are augmented by weekly laboratory work and assignments.</td>
-		<td id="capCol">Teaching Assistant<br/>Lab Instructor</td>
+        <td class="no-border" id="infoCol" style="vertical-align: top;"></td>
 	</tr>
 </table><br/>
 <h3>Teaching Assistantships</h3>

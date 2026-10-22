@@ -1,5 +1,20 @@
 var selected = 0;
 
+const courseCodes = [
+    "PHYS 1006",
+    "PHYS 1007",
+    "COSC 1047",
+    "COSC 2006",
+    "MATH 2056",
+    "COSC 2406",
+    "COSC 2956",
+    "COSC 3596",
+    "COSC 4086",
+    "COSC 4087",
+    "COSC 4235",
+    "COSC 4596"
+]
+
 const courseNames = [
     "Introductory Physics I",
     "Introductory Physics II",
@@ -31,12 +46,12 @@ const calendarDescriptions = [
 ];
 
 const teachingCapacities = [
-    "Teaching Assistant<br/>Lab Instructor",
-    "Teaching Assistant<br/>Lab Instructor",
-    "Teaching Assistant<br/>Lab Instructor",
-    "Teaching Assistant<br/>Lab Instructor<br/>Lecture Instructor",
+    "Teaching Assistant, Lab Instructor",
+    "Teaching Assistant, Lab Instructor",
+    "Teaching Assistant, Lab Instructor",
+    "Teaching Assistant, Lab Instructor, Lecture Instructor",
     "Teaching Assistant",
-    "Teaching Assistant<br/>Lab Instructor<br/>Lecture Instructor",
+    "Teaching Assistant, Lab Instructor, Lecture Instructor",
     "Lecture Instructor",
     "Lecture Instructor",
     "Project Supervisor",
@@ -47,19 +62,16 @@ const teachingCapacities = [
 
 document.addEventListener("DOMContentLoaded", () => {
     const classButtons = document.getElementsByClassName("classBtn");
-    const nameCol = document.getElementById("nameCol")
-    const descCol = document.getElementById("descCol");
-    const capCol = document.getElementById("capCol");
+    const infoCol = document.getElementById("infoCol");
 
     for(let i = 0; i < classButtons.length; i++) {
         classButtons[i].addEventListener("click", () => {
-            nameCol.innerText = courseNames[i];
-            descCol.innerText = calendarDescriptions[i];
-            capCol.innerHTML = teachingCapacities[i];
+            infoCol.innerHTML = `<strong>${courseCodes[i]}: ${courseNames[i]}</strong><br/>${calendarDescriptions[i]}<br/><br/>I have taught this course in the following capacities: <strong>${teachingCapacities[i]}</strong>`
             classButtons[selected].classList.toggle("selected");
             classButtons[i].classList.toggle("selected");
             selected = i;
         });
     }
 
+    classButtons[selected].dispatchEvent(new Event("click"));
 });
