@@ -3,35 +3,6 @@
     include("assets/include/header.php");
 ?>
 
-<style>
-	table:not(#certs) {
-		border-spacing: 0;
-		border-collapse: collapse;
-	}
-
-	th, td:not(table#certs td) {
-		max-width: 800px;
-		text-align: left;
-		align-items: center;
-		padding: 10px;
-		border: 1px solid var(--blue);
-	}
-
-    table#certs td:not(table#certs td:has(img)) {
-        padding-left: 10px;
-        vertical-align: middle;
-    }
-
-    td img {
-        height: 71px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        aspect-ratio: auto;
-    }
-
-</style>
-
 <h3>Education</h3>
 <table>
 	<tr>
