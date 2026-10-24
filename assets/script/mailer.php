@@ -22,7 +22,7 @@ function send_contact_mail(string $from_name, string $from_email, string $subjec
     $mail->addReplyTo($from_email, $from_name);
     $mail->isHTML(true);
     $mail->Subject = "[Contact Request] $subject";
-    $mail->Body = "New Contact Request from <strong>$from_name</strong>:<br/><p style='margin: 20px;'>$message</p>";
+    $mail->Body = "New Contact Request from <strong>$from_name</strong>:<br><p style='margin: 20px;'>$message</p>";
 
     if($mail->send()) return true;
     else return $mail->ErrorInfo;
@@ -45,10 +45,10 @@ function send_feedback_mail($name, $chapter, $feedback): bool|string {
     $mail->Body = "";
 
     if(!empty($name)){
-        $mail->Body .= "<strong>$name</strong> has left feedback on <strong>$chapter</strong>:<br/><p style='margin: 20px;'><em>$feedback</em></p>";
+        $mail->Body .= "<strong>$name</strong> has left feedback on <strong>$chapter</strong>:<br><p style='margin: 20px;'><em>$feedback</em></p>";
     }
     else {
-        $mail->Body .= "New feedback on <strong>$chapter</strong>:<br/><p style='margin: 20px;'><em>$feedback</em></p>";
+        $mail->Body .= "New feedback on <strong>$chapter</strong>:<br><p style='margin: 20px;'><em>$feedback</em></p>";
     }
 
     if($mail->send()) return true;
