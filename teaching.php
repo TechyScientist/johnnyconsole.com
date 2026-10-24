@@ -3,44 +3,6 @@
     include("assets/include/header.php");
 ?>
 <script src="assets/script/teaching.js"></script>
-<style>
-    button {
-        display: block;
-        width: 100%;
-        height: 3em;
-        color: var(--blue);
-        background-color: var(--background-color);
-        border: 1px solid var(--blue);
-        margin-bottom: 0.625em;
-        padding: 0.5em;
-        border-radius: 0.5em;
-    }
-
-    button:hover, button.selected {
-        transition: all;
-        transition-duration: 0.5s;
-        color: var(--background-color);
-        background-color: var(--blue);
-    }
-
-
-	table {
-		border-spacing: 0;
-		border-collapse: collapse;
-	}
-
-	th, td {
-		max-width: 600px;
-		text-align: left;
-		align-items: center;
-		padding: 10px;
-        border: 1px solid var(--blue);
-	}
-
-    td.no-border {
-        border: none;
-    }
-</style>
 
 <h3>Teaching</h3>
 <p>I have upwards of six years of experience teaching students in Algoma University's Faculty of Computer Science & technology in a variety of courses as both a teaching assistant and as an instructor. I have experience teaching the following courses:</p>
