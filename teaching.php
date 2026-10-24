@@ -99,14 +99,14 @@
     <tr>
         <td><a href="https://www.linkedin.com/in/hasitha-hewakuruppu-71b172147/">Hasitha Hewakuruppu</a></td>
         <td>Fall 2023 - Winter 2024</td>
-        <td>PHYS 1006 - Introductory Physics I (Lab)<br/>PHYS 1007 - Introductory Physics II (Lab)<br/>COSC 2006 - Data Structures I (Lab)</td>
+        <td>PHYS 1006 - Introductory Physics I (Lab)<br>PHYS 1007 - Introductory Physics II (Lab)<br>COSC 2006 - Data Structures I (Lab)</td>
         <td>Spring 2024</td>
         <td>AI Trainer at DataAnnotation (Remote)</td>
     </tr>
     <tr>
         <td><a href="https://www.linkedin.com/in/braeden-hong-20b86a256/">Braeden Hong</a></td>
         <td>Winter 2023 - Winter 2025</td>
-        <td>COSC 2006 - Data Structures I (Lab)<br/>COSC 2406 - Assembly Language Programming (Lab)</td>
+        <td>COSC 2006 - Data Structures I (Lab)<br>COSC 2406 - Assembly Language Programming (Lab)</td>
         <td>Spring 2025</td>
         <td>Software Engineer at PlayEveryWare (Yokohama, JP)</td>
     </tr>
@@ -115,16 +115,16 @@
         <td>Winter 2024 - Winter 2025</td>
         <td>COSC 2406 - Assembly Language Programming (Lecture/Lab)</td>
         <td>Spring 2025</td>
-        <td>MSc Computing candidate at Queen's University (Kingston, ON)<br/>Vector Scholarship (AI) Recipient</td>
+        <td>MSc Computing candidate at Queen's University (Kingston, ON)<br>Vector Scholarship (AI) Recipient</td>
     </tr>
     <tr>
         <td><a href="https://www.linkedin.com/in/sabab-rahman-a9878420a/">Sabab Rahman</a></td>
         <td>Winter 2025 - Fall 2025</td>
-        <td>COSC 1047 - Introduction to Computer Science II (Lab)<br/>COSC 2406 - Assembly Language Programming (Lecture/Lab)</td>
+        <td>COSC 1047 - Introduction to Computer Science II (Lab)<br>COSC 2406 - Assembly Language Programming (Lecture/Lab)</td>
         <td>Winter 2026</td>
         <td></td>
     </tr>
-</table><br/>
+</table><br>
 
 
 <h3>Supervision of Project and Thesis Work</h3>
@@ -169,7 +169,7 @@
     </tr>
     <tr>
         <td>Ashlinn Forsyth</td>
-        <td>Fall 2025<br/>Winter 2026</td>
+        <td>Fall 2025<br>Winter 2026</td>
         <td>Thesis</td>
         <td>Examining How Graphical Design Elements Convey Information to Players in Video Games</td>
     </tr>
