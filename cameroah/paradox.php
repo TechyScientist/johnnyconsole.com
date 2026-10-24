@@ -89,42 +89,42 @@ include("../assets/include/header.php"); ?>
 
 <h4>Chapter List</h4>
 <p><strong>Please Note:</strong> This chapter list is not final - the names and order of these chapters may change in the final book release.</p>
-<p style="margin-left: 15px;"><strong>Rating System</strong>: <img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/> = Clean/SFW chapter &emsp; <img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"/> = Mildly Spicy/Suggestive chapter &emsp; <img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/> = Spicy/NSFW chapter<br/>
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/> = Draft Chapter Available on the <a href="reviewers">Reviewer Portal</a> &emsp; <img class="large-icon" src="../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"/> = Trigger Warning</p>
+<p style="margin-left: 15px;"><strong>Rating System</strong>: <img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"> = Clean/SFW chapter &emsp; <img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"> = Mildly Spicy/Suggestive chapter &emsp; <img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"> = Spicy/NSFW chapter<br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"> = Draft Chapter Available on the <a href="reviewers">Reviewer Portal</a> &emsp; <img class="large-icon" src="../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"> = Trigger Warning</p>
 
 <ol>
-    <li>Convocation Day<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>The Innocent Party<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>The Game That Changed Everything<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>A Night to Remember<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>The Aftermath<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>Lunch<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
-    <li>Noah's Shopping Spree and a Night In<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"/></li>
-    <li>A Day of Endless Taunting<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>The Dreaded Meeting<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>Date Night, Cameron's Style<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
-    <li>Game Day<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
-    <li>After the Final Buzzer<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/></li>
-    <li>Five for Roughing<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>Partying in Full Uniform<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
-    <li>The Awkward Dinner with Cameron's Family<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/> <img class="large-icon" src="../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning: Homophobia"/> Homophobia</li>
-    <li>Taking Flight<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/> <img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
+    <li>Convocation Day<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>The Innocent Party<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>The Game That Changed Everything<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>A Night to Remember<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>The Aftermath<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>Lunch<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+    <li>Noah's Shopping Spree and a Night In<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"></li>
+    <li>A Day of Endless Taunting<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>The Dreaded Meeting<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>Date Night, Cameron's Style<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+    <li>Game Day<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+    <li>After the Final Buzzer<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"></li>
+    <li>Five for Roughing<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>Partying in Full Uniform<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+    <li>The Awkward Dinner with Cameron's Family<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"> <img class="large-icon" src="../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning: Homophobia"> Homophobia</li>
+    <li>Taking Flight<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"> <img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
 </ol>
 
 <h4>Unordered Chapters</h4>
 <p>These are some chapters that may be included. It is currently not known where these chapters will end up in the chapter ordering.</p>
 
 <ul>
-    <li>A Nerdy Birthday Celebration<!--<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"/>--></li>
-    <li>Dinner with Noah's Family<!--<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/>--> </li>
-    <li>Date Night, Noah's Style<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean" /><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>Playing With My Little Femboy<!--<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/>--></li>
+    <li>A Nerdy Birthday Celebration<!--<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive">--></li>
+    <li>Dinner with Noah's Family<!--<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean">--> </li>
+    <li>Date Night, Noah's Style<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean" ><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>Playing With My Little Femboy<!--<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!">--></li>
     <li>Check, Check, Checkmate</li>
     <li>End of Term</li>
     <li>Paging Dr. Harper</li>
-    <li>Getaway<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>Using the Amenities<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
-    <li>Using the Love Hotel<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"/></li>
+    <li>Getaway<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>Using the Amenities<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
+    <li>Using the Love Hotel<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
     <li>Unraveled in Detention</li>
 </ul>
 
@@ -154,15 +154,15 @@ please use my <a href="../contact">Contact</a> page.</p>
             <div class="swatch" style="background-color: #013F00; color: white; align-self: center;">#013F00</div>
         </div>
         <div class="swatch-container">
-            <p>Gown Velvet Colour: Off White<br/></p>
+            <p>Gown Velvet Colour: Off White<br></p>
             <div class="swatch" style="background-color: #F8F8FF; color: black; border: 1px solid black; align-self: center;">#F8F8FF</div>
         </div>
         <div class="swatch-container">
-            <p>Hood Velvet Colour: Science Gold<br/></p>
+            <p>Hood Velvet Colour: Science Gold<br></p>
             <div class="swatch" style="background-color: #EBA301; color: black; align-self: center;">#EBA301</div>
         </div>
         <div class="swatch-container">
-            <p>Hood Chevron Colours: Olive Green and Off White<br/></p>
+            <p>Hood Chevron Colours: Olive Green and Off White<br></p>
             <div class="horizontal-2" style="align-self: center;">
                 <div class="swatch" style="background-color: #013F00; color: white;">#013F00</div>
                 <div class="swatch" style="background-color: #F8F8FF; color: black; border: 1px solid black;">#F8F8FF</div>
