@@ -8,7 +8,7 @@
         <link rel="icon" href="../../assets/img/jc.png">
         <?php
         if(isset($page) && file_exists($_SERVER['DOCUMENT_ROOT']."/assets/style/pages/".$page.".css")) { ?>
-            <link rel="stylesheet" href="../../assets/style/pages/<?php echo $page ?>.css"/>
+            <link rel="stylesheet" href="../../assets/style/pages/<?php echo $page ?>.css">
         <?php } ?>
     </head>
     <body>
