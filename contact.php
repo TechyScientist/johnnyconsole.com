@@ -26,15 +26,15 @@ else if(isset($_GET['error'])) {
 <form action="assets/script/contact.php" method="post">
     <div class="form-field">
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" required/>
+        <input type="email" id="email" name="email" required>
     </div>
     <div class="form-field">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" required/>
+        <input type="text" id="name" name="name" required>
     </div>
     <div class="form-field">
         <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" required/>
+        <input type="text" id="subject" name="subject" required>
     </div>
     <div class="form-field">
         <label for="message">Message</label>
