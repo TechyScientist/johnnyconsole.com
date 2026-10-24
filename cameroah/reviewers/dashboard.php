@@ -12,28 +12,6 @@ include("../../assets/include/header.php"); ?>
 <link rel="stylesheet" href="../../assets/style/pages/contact.css">
 <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
 
-<style>
-    ul, p:not(#warning) {
-        margin-left: 10px;
-    }
-
-    img.rating-icon {
-        height: 10px;
-        aspect-ratio: auto;
-        margin-left: 5px;
-    }
-
-    img.large-icon {
-        height: 15px;
-        aspect-ratio: auto;
-        margin-left: 5px;
-    }
-
-    sup {
-        color: var(--error);
-    }
-</style>
-
 <h3>Reviewer Dashboard &emsp;&emsp;<a href="../../assets/script/cameroah/reviewer/signout.php">Log Out</a></h3>
 <p style="margin-left: 15px;"><strong>Chapter Rating System</strong>: <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"> = Clean/SFW chapter &emsp; <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"> = Mildly Spicy/Suggestive chapter &emsp; <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"> = Spicy/NSFW chapter<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<img class="large-icon" src="../../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"> = Trigger Warning</p>
