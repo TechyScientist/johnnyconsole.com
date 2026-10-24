@@ -1,62 +1,7 @@
 <?php
 $page = "projects";
 include("../assets/include/header.php"); ?>
-<style>
-    div.horizontal-2 {
-        width: fit-content;
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-column-gap: 20px;
-    }
 
-    div.horizontal-4 {
-        width: fit-content;
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-column-gap: 20px;
-    }
-
-    div.swatch-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    div.swatch {
-        display: grid;
-        place-items: center;
-        width: 100px;
-        aspect-ratio: 2/1;
-    }
-
-    img.rating-icon {
-        height: 10px;
-        aspect-ratio: auto;
-        margin-left: 5px;
-    }
-    
-    img.large-icon {
-        height: 15px;
-        aspect-ratio: auto;
-        margin-left: 5px;
-    }
-
-    ol {
-        list-style: none;
-        counter-reset: chapter;
-        margin-left: 15px;
-        margin-bottom: 10px;
-    }
-
-    ul {
-        margin-bottom: 10px;
-    }
-
-    ol li::before {
-        content: "Chapter " counter(chapter) ": ";
-        counter-increment: chapter;
-    }
-
-</style>
 <p><a href="/cameroah">< Back to Series Page</a></p>
 <p id="warning"><strong>Content Warning</strong>: This book contains content that may be sensitive for some readers (LGBTQIA+ relationships) and NSFW scenes. Discretion is advised. The sample chapter provided is safe for work, but suggestive.</p>
 
@@ -92,7 +37,7 @@ include("../assets/include/header.php"); ?>
 <p style="margin-left: 15px;"><strong>Rating System</strong>: <img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"> = Clean/SFW chapter &emsp; <img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"> = Mildly Spicy/Suggestive chapter &emsp; <img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"> = Spicy/NSFW chapter<br>
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"> = Draft Chapter Available on the <a href="reviewers">Reviewer Portal</a> &emsp; <img class="large-icon" src="../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"> = Trigger Warning</p>
 
-<ol>
+<ol id="chapters">
     <li>Convocation Day<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
     <li>The Innocent Party<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
     <li>The Game That Changed Everything<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
