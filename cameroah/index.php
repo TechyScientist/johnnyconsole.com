@@ -15,7 +15,7 @@ include("../assets/include/header.php"); ?>
     }
 </style>
 <p id="warning"><strong>Content Warning</strong>: These books contain content that may be sensitive for some readers (LGBTQIA+ relationships) and NSFW scenes. Discretion is advised.</p>
-<h3><a href="reviewers">Reviewer Portal</a></h3><br/>
+<h3><a href="reviewers">Reviewer Portal</a></h3><br>
 <h3>About the Cameroah Story</h3>
 <p><em>Cameroah</em> comes from a portmanteau of the two main characters' names: <strong>Cameron</strong> Thorpe and
     <strong>Noah</strong> Harper. They've been stuck together like glue since they were in middle school. They took most
