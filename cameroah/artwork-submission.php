@@ -2,37 +2,6 @@
 $page = "projects";
 include("../assets/include/header.php");?>
 
-<style>
-    form label {
-        margin-right: 5px;
-    }
-
-    form input, form label, form select {
-        display: inline-block;
-    }
-
-    form input, form select {
-        width: 25em;
-        background-color: rgba(0,0,0,0);
-        color: var(--blue);
-        border: 0.0625em solid var(--blue);
-        padding: 0.313em;
-        border-radius: 0.5em;
-    }
-
-    form input[type=checkbox] {
-        width: unset;
-    }
-
-    form input[type="submit"] {
-        width: 25em;
-        height: 3em;
-        color: white;
-        background-color: var(--blue);
-        border-radius: 0.5em;
-    }
-</style>
-
 <a href="paradox">< Return to Book Page</a><br><br>
 
 <p id="warning"><strong>Warning</strong>: This form does not work yet! No data will be submitted.</p>
