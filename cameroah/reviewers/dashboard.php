@@ -9,7 +9,7 @@ if(!isset($_SESSION['username']) || strcmp($_SESSION['username'], "cameroah-revi
 
 $page = "projects";
 include("../../assets/include/header.php"); ?>
-<link rel="stylesheet" href="../../assets/style/pages/contact.css"/>
+<link rel="stylesheet" href="../../assets/style/pages/contact.css">
 <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
 
 <style>
@@ -35,8 +35,8 @@ include("../../assets/include/header.php"); ?>
 </style>
 
 <h3>Reviewer Dashboard &emsp;&emsp;<a href="../../assets/script/cameroah/reviewer/signout.php">Log Out</a></h3>
-<p style="margin-left: 15px;"><strong>Chapter Rating System</strong>: <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/> = Clean/SFW chapter &emsp; <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"/> = Mildly Spicy/Suggestive chapter &emsp; <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/> = Spicy/NSFW chapter<br/>
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<img class="large-icon" src="../../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"/> = Trigger Warning</p>
+<p style="margin-left: 15px;"><strong>Chapter Rating System</strong>: <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"> = Clean/SFW chapter &emsp; <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"> = Mildly Spicy/Suggestive chapter &emsp; <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"> = Spicy/NSFW chapter<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<img class="large-icon" src="../../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"> = Trigger Warning</p>
 <?php if(isset($_GET['error'])) { ?>
     <p id="error"><strong>Error <?php echo $_GET['error']; ?></strong>: <?php echo $_GET['message']; ?></p>
 <?php }
@@ -46,36 +46,36 @@ if(isset($_GET['feedback'])) {?>
 
 <p><strong><em>The Cameroah Paradox</em> Chapter Draft List:</strong></p>
 <ul>
-	<li><a href="../../assets/docs/cameroah/paradox/chapter1.pdf">Chapter 1: Convocation Day</a> Version 15 (19 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
-	<li><a href="../../assets/docs/cameroah/paradox/protected/chapter2.pdf">Chapter 2: The Innocent Party</a> Version 7 (12 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
-	<li><a href="../../assets/docs/cameroah/paradox/protected/chapter3.pdf">Chapter 3: The Game that Changed Everything</a> Version 5 (23 January 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"/></li>
-	<li><a href="../../assets/docs/cameroah/paradox/protected/chapter4.pdf">Chapter 4: A Night to Remember</a> Version 9 (9 February 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/></li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter5.pdf">Chapter 5: The Aftermath</a> Version 8 (23 January 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"/></li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter8.pdf">Chapter 8: A Day of Endless Taunting</a> Version 5 (27 March 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"/></li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter9.pdf">Chapter 9: The Dreaded Meeting</a> Version 1 (27 March 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
+	<li><a href="../../assets/docs/cameroah/paradox/chapter1.pdf">Chapter 1: Convocation Day</a> Version 15 (19 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+	<li><a href="../../assets/docs/cameroah/paradox/protected/chapter2.pdf">Chapter 2: The Innocent Party</a> Version 7 (12 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+	<li><a href="../../assets/docs/cameroah/paradox/protected/chapter3.pdf">Chapter 3: The Game that Changed Everything</a> Version 5 (23 January 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"></li>
+	<li><a href="../../assets/docs/cameroah/paradox/protected/chapter4.pdf">Chapter 4: A Night to Remember</a> Version 9 (9 February 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter5.pdf">Chapter 5: The Aftermath</a> Version 8 (23 January 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter8.pdf">Chapter 8: A Day of Endless Taunting</a> Version 5 (27 March 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter9.pdf">Chapter 9: The Dreaded Meeting</a> Version 1 (27 March 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
     <li>Coming Soon: Chapter 11: Game Day</li>
     <li>Coming Soon: Chapter 12: After the Final Buzzer</li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter13.pdf">Chapter 13: Five for Roughing</a> Version 6 (19 March 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/></li>
-    <li>Coming Soon: Chapter 15: The Awkward Dinner with Cameron's Family <img class="large-icon" src="../../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"/> Homophobia</li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter16.pdf">Chapter 16: Taking Flight</a> Version 3 (30 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterB.pdf">Unordered Chapter B: Date Night, Noah's Style</a> Version 6 (9 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"/></li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterI.pdf">Unordered Chapter I: Getaway</a> Version 5 (30 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"/></li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterJ.pdf">Unordered Chapter J: Using the Amenities</a> Version 2 (30 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/></li>
-    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterK.pdf">Unordered Chapter K: Using the Love Hotel</a> Version 2 (29 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"/></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter13.pdf">Chapter 13: Five for Roughing</a> Version 6 (19 March 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"></li>
+    <li>Coming Soon: Chapter 15: The Awkward Dinner with Cameron's Family <img class="large-icon" src="../../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"> Homophobia</li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapter16.pdf">Chapter 16: Taking Flight</a> Version 3 (30 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterB.pdf">Unordered Chapter B: Date Night, Noah's Style</a> Version 6 (9 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterI.pdf">Unordered Chapter I: Getaway</a> Version 5 (30 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterJ.pdf">Unordered Chapter J: Using the Amenities</a> Version 2 (30 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterK.pdf">Unordered Chapter K: Using the Love Hotel</a> Version 2 (29 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"></li>
     <li>Coming Soon: Unordered Chapter L: Unraveled in Detention</li>
-</ul><br/>
+</ul><br>
 
 <!--<p><strong><em>The Cameroah Mystery</em> Chapter Draft List:</strong></p>
 <ul>
     <li>No Draft Chapters Available</li>
-</ul><br/> -->
+</ul><br> -->
 
 <h3>Submit Feedback</h3>
 <p>Fields marked with <sup>*</sup> are required.</p>
 <form action="../../assets/script/cameroah/reviewer/feedback.php" method="post">
     <div class="form-field">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name"/>
+        <input type="text" id="name" name="name">
     </div>
     <div class="form-field">
         <label for="chapter"><sup>*</sup>Chapter</label>
