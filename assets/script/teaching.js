@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     for(let i = 0; i < classButtons.length; i++) {
         classButtons[i].addEventListener("click", () => {
-            infoCol.innerHTML = `<strong>${courseCodes[i]}: ${courseNames[i]}</strong><br/>${calendarDescriptions[i]}<br/><br/>I have taught this course in the following capacities: <strong>${teachingCapacities[i]}</strong>`
+            infoCol.innerHTML = `<strong>${courseCodes[i]}: ${courseNames[i]}</strong><br>${calendarDescriptions[i]}<br><br>I have taught this course in the following capacities: <strong>${teachingCapacities[i]}</strong>`
             classButtons[selected].classList.toggle("selected");
             classButtons[i].classList.toggle("selected");
             selected = i;
