@@ -2,21 +2,6 @@
     $page = "projects";
     include("assets/include/header.php");
 ?>
-<style>
-        table {
-                border-spacing: 0;
-                border-collapse: collapse;
-                width: 100%;
-        }
-
-        th, td {
-                max-width: 800px;
-                text-align: left;
-                align-items: center;
-                padding: 10px;
-                border: 1px solid var(--blue);
-        }
-</style>
 
 <h3>Active Projects</h3>
 <table>
