@@ -38,12 +38,12 @@
 	<tr>
 		<td>Cryptography Suite</td>
 		<td>An enterprise computing implementation of a variety of cipher algorithms, written in Java using the JBoss framework and Maven for dependency management</td>
-		<td><a href="https://github.com/TechyScientist/CryptographySuite">Source Code (GitHub)</a><br/><a href="https://wildfly.johnnyconsole.com:8443/cryptography-suite">Try it Out!</a></td>
+		<td><a href="https://github.com/TechyScientist/CryptographySuite">Source Code (GitHub)</a><br><a href="https://wildfly.johnnyconsole.com:8443/cryptography-suite">Try it Out!</a></td>
 	</tr>
 	<tr>
 		<td>Temperature Prediction Suite</td>
-		<td>An enterprise computing dashboard for predicting temperatues based on historical data from Environment Canada (Ottawa Airport Station). Supports multiple different users with password hashing using <a href="https://github.com/patrickfav/BCrypt">BCrypt</a>. Written in Java using the JBoss framework and Maven for dependency management.<br/><br/><strong>Note:</strong> Access to this tool requires authentication. Username: <strong>guest</strong>, Password: <strong>TempSuiteGuest!2025</strong>. The guest user is a standard user (no administrative access) that has been disallowed to access the user profile section (i.e., the only available tool is to make a prediction using an existing model).</td>
-		<td><a href="https://github.com/TechyScientist/TemperaturePredictionSuite">Source Code (GitHub)</a><br/><a href="https://wildfly.johnnyconsole.com:8443/temperature-suite">Try it Out!</a></td>
+		<td>An enterprise computing dashboard for predicting temperatues based on historical data from Environment Canada (Ottawa Airport Station). Supports multiple different users with password hashing using <a href="https://github.com/patrickfav/BCrypt">BCrypt</a>. Written in Java using the JBoss framework and Maven for dependency management.<br><br><strong>Note:</strong> Access to this tool requires authentication. Username: <strong>guest</strong>, Password: <strong>TempSuiteGuest!2025</strong>. The guest user is a standard user (no administrative access) that has been disallowed to access the user profile section (i.e., the only available tool is to make a prediction using an existing model).</td>
+		<td><a href="https://github.com/TechyScientist/TemperaturePredictionSuite">Source Code (GitHub)</a><br><a href="https://wildfly.johnnyconsole.com:8443/temperature-suite">Try it Out!</a></td>
 	</tr>
     <tr>
         <td>Enterprise IMS</td>
@@ -60,7 +60,7 @@
 	<td>An enterprise library management system</td>
 	<td><a href=https://github.com/TechyScientist/EnterpriseLMS">Source Code (GitHub)</a></td>
     </tr>
-</table><br/>
+</table><br>
 
 <h3>Past Projects</h3>
 <table>
@@ -74,7 +74,7 @@
         <td>Mobile applications for both the Android and iOS architectures based on native IDEs (Android Studio for Android, Xcode for iOS) and languages (Kotlin for Android and Swift for iOS) that asyncronously access the <a href="https://chess.ca">Chess Federation of Canada (CFC)</a> player search API to allow users to search for and view player CFC membership and rating information by searching by CFC ID number, Last Name, or First Name. Intended for tournament directors and arbiters to use to verify a player's membership and rating status, but can also be used by non-CFC users for the same purpose.</td>
         <td><a href="https://github.com/TechyScientist/CFCPlayers">Source Code (GitHub)</a></td>
     </tr>
-</table> <br/>
+</table> <br>
 
 <h3>Planned Projects</h3>
 <table>
@@ -93,9 +93,9 @@
 		<td>An enterprise computing suite for provisioning and managing software licensing information</td>
 		<td>Jakarta EE (EJB, Web, RESTful), MySQL, Android, Kotlin, Android Studio, iOS, Swift and Xcode</td>
 	</tr>
-</table><br/>
+</table><br>
 
 <h3>Suggestions?</h3>
-<p>If you have a suggestion for a project, you can submit it for review using the <a href="contact">Contact page</a>.<br/>
+<p>If you have a suggestion for a project, you can submit it for review using the <a href="contact">Contact page</a>.<br>
 <strong>Developers:</strong> Most of my projects are open-source on GitHub under the <strong><a href="https://choosealicense.com/licenses/gpl-3.0/">GNU Public License v3</a></strong> unless otherwise stated - feel free to fork to add a feature and submit a pull request for review!</p>
 <?php include("assets/include/footer.php"); ?>
