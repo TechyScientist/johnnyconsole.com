@@ -15,13 +15,13 @@
                 header("Location: ../../contact.php?error=captcha");
                 exit();
             }
-            echo "before assessment<br/>";
+            echo "before assessment<br>";
             $assessment = create_assessment(
                 $captcha_response,
                 'CONTACT'
             );
 
-            echo "after assessment<br/>";
+            echo "after assessment<br>";
             if(!is_string($assessment) &&
                 $assessment->getTokenProperties()->getValid() &&
                 $assessment->getTokenProperties()->getAction() == "CONTACT" &&
