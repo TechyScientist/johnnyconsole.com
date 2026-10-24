@@ -1,19 +1,6 @@
 <?php $page = "projects";
 include("../assets/include/header.php"); ?>
 
-<style>
-    ol {
-        list-style-type: none;
-        counter-reset: bookCounter;
-        margin-left: 30px;
-    }
-
-    li::before {
-        content: "Book " counter(bookCounter) " \2014";
-        counter-increment: bookCounter;
-        margin-right: 5px;
-    }
-</style>
 <p id="warning"><strong>Content Warning</strong>: These books contain content that may be sensitive for some readers (LGBTQIA+ relationships) and NSFW scenes. Discretion is advised.</p>
 <h3><a href="reviewers">Reviewer Portal</a></h3><br>
 <h3>About the Cameroah Story</h3>
