@@ -4,8 +4,8 @@
         <title>Johnny Console</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../../assets/style/main.css">
-        <link rel="icon" href="../../assets/img/jc.png">
+        <link rel="stylesheet" href="https://johnnyconsole.com/assets/style/main.css">
+        <link rel="icon" href="https://johnnyconsole.com/assets/img/jc.png">
         <?php
         if(isset($page) && file_exists($_SERVER['DOCUMENT_ROOT']."/assets/style/pages/".$page.".css")) { ?>
             <link rel="stylesheet" href="../../assets/style/pages/<?php echo $page ?>.css">
