@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Cameroah Restricted Downloads"
+AuthUserFile /home/johnnyco/.htpasswd
+Require valid-user
