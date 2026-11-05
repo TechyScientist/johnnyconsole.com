@@ -65,7 +65,7 @@ include("../assets/include/header.php"); ?>
     <li>Date Night, Noah's Style<img class="rating-icon" src="../assets/img/cameroah/rating-icons/clean.png" alt="Clean" ><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
     <li>Playing With My Little Femboy<!--<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!">--></li>
     <li>Check, Check, Checkmate</li>
-    <li>End of Term</li>
+    <li>End of Term Script Flipping<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
     <li>Paging Dr. Harper</li>
     <li>Getaway<img class="rating-icon" src="../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
     <li>Using the Amenities<img class="rating-icon" src="../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"><img class="large-icon" src="../assets/img/cameroah/rating-icons/check.png" alt="Written"></li>
