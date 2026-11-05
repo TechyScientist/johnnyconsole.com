@@ -29,6 +29,7 @@ if(isset($_GET['feedback'])) {?>
     <li>Coming Soon: Chapter 15: The Awkward Dinner with Cameron's Family <img class="large-icon" src="../../assets/img/cameroah/rating-icons/trigger-warning.png" alt="Trigger Warning"> Homophobia</li>
     <li><a href="../../assets/docs/cameroah/paradox/protected/chapter16.pdf">Chapter 16: Taking Flight</a> Version 3 (30 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
     <li><a href="../../assets/docs/cameroah/paradox/protected/chapterB.pdf">Unordered Chapter B: Date Night, Noah's Style</a> Version 6 (9 April 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/clean.png" alt="Clean"></li>
+    <li><a href="../../assets/docs/cameroah/paradox/protected/chapterE.pdf">Unordered Chapter E: End of Term Script Flipping</a> Version 1 (5 November 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Suggestive"></li>
     <li><a href="../../assets/docs/cameroah/paradox/protected/chapterI.pdf">Unordered Chapter I: Getaway</a> Version 5 (30 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/suggestive.png" alt="Mildly Spicy/Suggestive"></li>
     <li><a href="../../assets/docs/cameroah/paradox/protected/chapterJ.pdf">Unordered Chapter J: Using the Amenities</a> Version 2 (30 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"></li>
     <li><a href="../../assets/docs/cameroah/paradox/protected/chapterK.pdf">Unordered Chapter K: Using the Love Hotel</a> Version 2 (29 May 2026) <img class="rating-icon" src="../../assets/img/cameroah/rating-icons/spicy.png" alt="Spicy!"></li>
@@ -65,6 +66,7 @@ if(isset($_GET['feedback'])) {?>
             </optgroup>
             <optgroup label="The Cameroah Paradox - Unordered Chapters">
                 <option>Unordered Chapter B - Date Night, Noah's Style</option>
+                <option>Unordered Chapter E - End of Term Script Flipping</option>
                 <option>Unordered Chapter I - Getaway</option>
                 <option>Unordered Chapter J - Using the Amenities</option>
                 <option>Unordered Chapter K - Using the Love Hotel</option>
