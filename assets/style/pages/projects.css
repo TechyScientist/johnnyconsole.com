@@ -37,7 +37,7 @@ form input, form select {
     background-color: rgba(0,0,0,0);
     color: var(--blue);
     border: 0.0625em solid var(--blue);
-    padding: 0.313em;
+    padding: 0.625em;
     border-radius: 0.5em;
 }
 
