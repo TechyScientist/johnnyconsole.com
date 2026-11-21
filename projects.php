@@ -16,6 +16,11 @@
         <td><a href="cameroah">About the Series</a></td>
     </tr>
     <tr>
+        <td>Quiz Game</td>
+        <td>A quiz game app based on the table version of ITV's The Chase. Runs using a WebSocket server written in JavaFX, with the challenger, chaser, and host stations connecting through either Android (written in XML/Kotlin) or iOS (Written in Storyboard/Swift) apps.</td>
+        <td><a href="https://github.com/TechyScientist/QuizGame">Source Code (GitHub)</a></td>
+    </tr>
+    <tr>
         <td>Android AI Chatbot App</td>
         <td>An app made using Kotlin and XML to serve as a multi-purpose, on-device AI Chatbot using the Gemma 4 Uncensored MAX model by PeppX.</td>
         <td><a href="https://github.com/TechyScientist/Android-Chatbot">Source Code (GitHub)</a></td>
